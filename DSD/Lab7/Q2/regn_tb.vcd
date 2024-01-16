@@ -1,0 +1,82 @@
+$date
+	Thu Oct 12 10:54:38 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module regn_tb $end
+$var wire 8 ! Q [7:0] $end
+$var reg 8 " I [7:0] $end
+$var reg 1 # clk $end
+$var integer 32 $ i [31:0] $end
+$scope module r1 $end
+$var wire 8 % I [7:0] $end
+$var wire 1 # clk $end
+$var reg 8 & Q [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx &
+b10 %
+b10 $
+0#
+b10 "
+bx !
+$end
+#10
+b10 !
+b10 &
+1#
+#20
+0#
+b100 "
+b100 %
+b100 $
+#30
+b100 !
+b100 &
+1#
+#40
+0#
+b1000 "
+b1000 %
+b1000 $
+#50
+b1000 !
+b1000 &
+1#
+#60
+0#
+b10000 "
+b10000 %
+b10000 $
+#70
+b10000 !
+b10000 &
+1#
+#80
+0#
+b100000 "
+b100000 %
+b100000 $
+#90
+b100000 !
+b100000 &
+1#
+#100
+0#
+b1000000 "
+b1000000 %
+b1000000 $
+#110
+b1000000 !
+b1000000 &
+1#
+#120
+0#
+b10000000 $
