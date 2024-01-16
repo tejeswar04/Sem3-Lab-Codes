@@ -1,0 +1,79 @@
+$date
+	Thu Oct 26 09:38:17 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module R_4_tb $end
+$var wire 4 ! c [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # reset $end
+$scope module R $end
+$var wire 4 $ c [3:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var reg 4 % t [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000 %
+b1000 $
+1#
+0"
+b1000 !
+$end
+#10
+1"
+#20
+b100 !
+b100 $
+b100 %
+0"
+0#
+#30
+b10 !
+b10 $
+b10 %
+1"
+#40
+0"
+#50
+b1 !
+b1 $
+b1 %
+1"
+#60
+0"
+#70
+b1000 !
+b1000 $
+b1000 %
+1"
+#80
+0"
+#90
+b100 !
+b100 $
+b100 %
+1"
+#100
+0"
+#110
+b10 !
+b10 $
+b10 %
+1"
+#120
+0"
+#130
+b1 !
+b1 $
+b1 %
+1"
+#140
+0"
