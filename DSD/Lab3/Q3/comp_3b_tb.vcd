@@ -1,0 +1,57 @@
+$date
+	Thu Aug 24 10:24:27 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module comp_3b_tb $end
+$var wire 1 ! lt $end
+$var wire 1 " gt $end
+$var wire 1 # eq $end
+$var reg 3 $ A [2:0] $end
+$var reg 3 % B [2:0] $end
+$scope module c1 $end
+$var wire 3 & A [2:0] $end
+$var wire 3 ' B [2:0] $end
+$var reg 1 # eq $end
+$var reg 1 " gt $end
+$var reg 3 ( i [2:0] $end
+$var reg 1 ! lt $end
+$var integer 32 ) j [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11 )
+b111 (
+b11 '
+b11 &
+b11 %
+b11 $
+1#
+0"
+0!
+$end
+#5
+1!
+0#
+b0 (
+b11 )
+b101 %
+b101 '
+b10 $
+b10 &
+#10
+0!
+1"
+b101 (
+b11 )
+b100 %
+b100 '
+b110 $
+b110 &
+#15
